@@ -1,289 +1,265 @@
 <!DOCTYPE html>
 <html>
-
-
-<style>
+	<style>
 body {
 background-color:black;}
 p {
-font-size:17px;
-		position:absolute;
-		top:2%;
-		left:43%;
-		width:500px;
-		text-align:center;
-		font-family:calibri;
-		color:white;
-		}
-		
-* {box-sizing:border-box}
+	font-size:17px;
+	position:absolute;
+	top:2%;
+	left:43%;
+	width:500px;
+	text-align:center;
+	font-family:calibri;
+	color:white;
+	}
+
 body {font-family: Verdana,sans-serif;margin:0}
+	.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	}
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
 .prev, .next {
-font-family:fantasy;
-  cursor: pointer;
-  position: absolute;
-  top: 300px;
-  width: 200pz;
-  padding: 10px;
-  margin-top: -22px;
-  color: white;
+	font-family:fantasy;
+	cursor: pointer;
+	position: absolute;
+	top: 300px;
+	width: 200pz;
+	padding: 10px;
+	margin-top: -22px;
+	color: white;
+	font-size: 22px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	}
 
-  font-size: 22px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+	right: 0;
+	border-radius: 3px 0 0 3px;
+	}
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+	background-color: rgba(0,0,0,0.8);
+	}
 
-/* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+	}
 
-/* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+	}
 
-/* The dots/bullets/indicators */
 .dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+	cursor:pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	}
 
 .active, .dot:hover {
-  background-color: #717171;
-}
+	background-color: #717171;
+	}
 
-/* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+	}
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+	from {opacity: .4} 
+	to {opacity: 1}
+	}
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+	from {opacity: .4} 
+	to {opacity: 1}
+	}
 
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .slprev, .slnext,.text {font-size: 11px}
-}
+	.slprev, .slnext,.text {font-size: 11px}
+	}
 
 a:link {
-		color: black;;
-		text-decoration: underline;}
-		a:visited {
-		color: black;
-		text-decoration: underline;}
-		a:hover {
-		background-color:#2e2929;
-		color:white;
-		text-decoration: underline;}
-		a:active {
-		background-color:black;
-		color:white;}
-  
-.button {
+	color: black;;
+	text-decoration: underline;}
+	a:visited {
+	color: black;
+	text-decoration: underline;}
+	a:hover {
+	background-color:#2e2929;
+	color:white;
+	text-decoration: underline;}
+	a:active {
+	background-color:black;
+	color:white;}
 
-opacity:0.7;filter:alpha(opacity=70);
-position:absolute;
-font-family:fantasy;
-top: 84.2%;
-left: 75.7%;
-  border-radius: 4px;
-  background-color: grey;
-  border: none;
-  color: black;
-  text-align: center;
-  font-size: 28px;
-  padding: 10px;
-  width: 150px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
+.button {
+	opacity:0.7;filter:alpha(opacity=70);
+	position:absolute;
+	font-family:fantasy;
+	top: 84.2%;
+	left: 75.7%;
+	border-radius: 4px;
+	background-color: grey;
+	border: none;
+	color: black;
+	text-align: center;
+	font-size: 28px;
+	padding: 10px;
+	width: 150px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	}
 
 .button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+	}
 
 .button span:after {
-  content:'-->';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  transition: 0.5s;
-}
+	content:'-->';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	transition: 0.5s;
+	}
 
 .button:hover span {
-  padding-right: 40px;
-}
+	padding-right: 40px;
+	}
 
 .button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
+	opacity: 1;
+	right: 0;
+	}
 
 #first {
-text-decoration:underline;
-		width:500px;
-		font-size:50px;
-		font-style:italic;
-		position:absolute;
-		top:65%;
-		left:36%;
-		font-family:fantasy;
-	
-		color:white;}
-		
-		#second {
-		text-decoration:underline;
-		font-style:italic;
-		width:500px;
-		font-size:50px;
-		position:absolute;
-		top:74%;
-		left:42%;
-		font-family:fantasy;
+	text-decoration:underline;
+	width:500px;
+	font-size:50px;
+	font-style:italic;
+	position:absolute;
+	top:65%;
+	left:36%;
+	font-family:fantasy;
+	color:white;}
 
-		color:white;}
-		
-		#third {
-		text-decoration:underline;
-		font-style:italic;
-		width:500px;
-		font-size:50px;
-		position:absolute;
-		top:83%;
-		left:47%;
-		font-family:fantasy;
-		
-		color:white;}
-		
-</style>
-<body>
+#second {
+	text-decoration:underline;
+	font-style:italic;
+	width:500px;
+	font-size:50px;
+	position:absolute;
+	top:74%;
+	left:42%;
+	font-family:fantasy;
+	color:white;}
+	#third {
+	text-decoration:underline;
+	font-style:italic;
+	width:500px;
+	font-size:50px;
+	position:absolute;
+	top:83%;
+	left:47%;
+	font-family:fantasy;
+	color:white;}
 
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="lambo2.jpg" style="width:100%" height="620px" width="100%";>
-  <div class="text">LAMBOGHINI</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="audi.jpg" style="width:100%" height="620px" width="100%";>
-  <div class="text">AUDI</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="gtr.jpg" style="width:100%" height="620px" width="100%";>
-  <div class="text">NISSAN GTR</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)"><--Prev</a>
-<a class="next" onclick="plusSlides(1)">Next--></a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-
-<p> My name is Leo and I am currently a 2A Math student from the University of Waterloo.<br/ >
+	</style>
+	<body>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 3</div>
+				<img src="lambo2.jpg" style="width:100%" height="620px" width="100%";>
+					<div class="text">LAMBOGHINI</div>
+				</div>
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 3</div>
+					<img src="audi.jpg" style="width:100%" height="620px" width="100%";>
+						<div class="text">AUDI</div>
+					</div>
+					<div class="mySlides fade">
+						<div class="numbertext">3 / 3</div>
+						<img src="gtr.jpg" style="width:100%" height="620px" width="100%";>
+							<div class="text">NISSAN GTR</div>
+						</div>
+						<a class="prev" onclick="plusSlides(-1)">
+							<--Prev</a>
+								<a class="next" onclick="plusSlides(1)">Next--></a>
+							</div>
+							<br>
+								<div style="text-align:center">
+									<span class="dot" onclick="currentSlide(1)"/> 
+									<span class="dot" onclick="currentSlide(2)"/> 
+									<span class="dot" onclick="currentSlide(3)"/> 
+								</div>
+								<p> My name is Leo and I am currently a 2A Math student from the University of Waterloo.<br/ >
 		Roadster, two-seat car with emphasis on sporting appearance or character, is every growup's dream.<br />
 		However, roadsters are usually expensive to own due to their incrediably high costs and they are hardly seen on the road.<br />
 		Have you ever seen a roadster on the road but unfortunately knows nothing about that "beast"?<br />
 		I made this website in order to give some information about those supercars.<br />
 		Enjoy!
-			</p>
-			
-			<div id="first">Experience the</div>
-		<div id="second">FAST</div>
-		<div id="third"> AND FURIOUS</div>
-		<div id="front">It's all about the dream !</div>
-		
-		<button class="button"><span><a href="new 2.html">Starts </a></span></button>
-		
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
+									</p>
+									<div id="first">Experience the</div>
+									<div id="second">FAST</div>
+									<div id="third"> AND FURIOUS</div>
+									<div id="front">It's all about the dream !</div>
+									<button class="button">
+										<span>
+											<a href="new 2.html">Starts </a>
+										</span>
+									</button>
+									<script>
+										var slideIndex = 1;
+										showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+										function plusSlides(n) {
+										  showSlides(slideIndex += n);
+										}
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+										function currentSlide(n) {
+										  showSlides(slideIndex = n);
+										}
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length} ;
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
-</body>
-</html> 
+										function showSlides(n) {
+										  var i;
+										  var slides = document.getElementsByClassName("mySlides");
+										  var dots = document.getElementsByClassName("dot");
+										  if (n > slides.length) {slideIndex = 1}    
+										  if (n < 1) {slideIndex = slides.length} ;
+										  for (i = 0; i < slides.length; i++) {
+											  slides[i].style.display = "none";  
+										  }
+										  for (i = 0; i < dots.length; i++) {
+											  dots[i].className = dots[i].className.replace(" active", "");
+										  }
+										  slides[slideIndex-1].style.display = "block";  
+										  dots[slideIndex-1].className += " active";
+										}
+									</script>
+		</body>
+	</html>
+												</html> 
+												
