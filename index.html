@@ -2,101 +2,10 @@
 <html>
 	<style>
 body {
-background-color:black;}
-p {
-	font-size:17px;
-	position:absolute;
-	top:2%;
-	left:43%;
-	width:500px;
-	text-align:center;
-	font-family:calibri;
-	color:white;
-	}
+background-color:black;
+background-image: url(bg2.jpg);
+}
 
-body {font-family: Verdana,sans-serif;margin:0}
-	.slideshow-container {
-	max-width: 1000px;
-	position: relative;
-	margin: auto;
-	}
-
-.prev, .next {
-	font-family:fantasy;
-	cursor: pointer;
-	position: absolute;
-	top: 300px;
-	width: 200pz;
-	padding: 10px;
-	margin-top: -22px;
-	color: white;
-	font-size: 22px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	}
-
-.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-	}
-
-.prev:hover, .next:hover {
-	background-color: rgba(0,0,0,0.8);
-	}
-
-.text {
-	color: #f2f2f2;
-	font-size: 15px;
-	padding: 8px 12px;
-	position: absolute;
-	bottom: 8px;
-	width: 100%;
-	text-align: center;
-	}
-
-.numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-	}
-
-.dot {
-	cursor:pointer;
-	height: 13px;
-	width: 13px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
-	}
-
-.active, .dot:hover {
-	background-color: #717171;
-	}
-
-.fade {
-	-webkit-animation-name: fade;
-	-webkit-animation-duration: 1.5s;
-	animation-name: fade;
-	animation-duration: 1.5s;
-	}
-
-@-webkit-keyframes fade {
-	from {opacity: .4} 
-	to {opacity: 1}
-	}
-
-@keyframes fade {
-	from {opacity: .4} 
-	to {opacity: 1}
-	}
-
-@media only screen and (max-width: 300px) {
-	.slprev, .slnext,.text {font-size: 11px}
-	}
 
 a:link {
 	color: black;;
@@ -116,8 +25,8 @@ a:link {
 	opacity:0.7;filter:alpha(opacity=70);
 	position:absolute;
 	font-family:fantasy;
-	top: 84.2%;
-	left: 75.7%;
+	top: 90%;
+	left: 88%;
 	border-radius: 4px;
 	background-color: grey;
 	border: none;
@@ -157,71 +66,84 @@ a:link {
 
 #first {
 	text-decoration:underline;
-	width:500px;
-	font-size:50px;
+	width:1000px;
+	font-size:100px;
 	font-style:italic;
 	position:absolute;
-	top:65%;
-	left:36%;
+	top:30%;
+	left:0%;
 	font-family:fantasy;
-	color:white;}
+	color:white;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+	-webkit-animation: fadein 4s; 
+       -moz-animation: fadein 4s; 
+        -ms-animation: fadein 4s; 
+         -o-animation: fadein 4s; 
+            animation: fadein 4s;}
 
 #second {
 	text-decoration:underline;
 	font-style:italic;
 	width:500px;
-	font-size:50px;
+	font-size:100px;
 	position:absolute;
-	top:74%;
-	left:42%;
+	top:50%;
+	left:10%;
 	font-family:fantasy;
-	color:white;}
+	color:white;
+	-ms-transform: rotate(-17deg);
+	-webkit-transform: rotate(-17deg);
+	transform: rotate(-17deg);
+	-webkit-animation: fadein 6s; 
+       -moz-animation: fadein 6s; 
+        -ms-animation: fadein 6s; 
+         -o-animation: fadein 6s; 
+            animation: fadein 6s;}
+	
 	#third {
 	text-decoration:underline;
 	font-style:italic;
 	width:500px;
-	font-size:50px;
+	font-size:100px;
 	position:absolute;
-	top:83%;
-	left:47%;
+	top:57%;
+	left:20%;
 	font-family:fantasy;
-	color:white;}
+	color:white;
+	-ms-transform: rotate(-19deg);
+	-webkit-transform: rotate(-19deg);
+	transform: rotate(-19deg);
+	-webkit-animation: fadein 7s; 
+       -moz-animation: fadein 7s; 
+        -ms-animation: fadein 7s; 
+         -o-animation: fadein 7s; 
+            animation: fadein 7s;}
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/for Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* for chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
 	</style>
 	<body>
-		<div class="slideshow-container">
-			<div class="mySlides fade">
-				<div class="numbertext">1 / 3</div>
-				<img src="lambo2.jpg" style="width:100%" height="620px" width="100%";>
-					<div class="text">LAMBOGHINI</div>
-				</div>
-				<div class="mySlides fade">
-					<div class="numbertext">2 / 3</div>
-					<img src="audi.jpg" style="width:100%" height="620px" width="100%";>
-						<div class="text">AUDI</div>
-					</div>
-					<div class="mySlides fade">
-						<div class="numbertext">3 / 3</div>
-						<img src="gtr.jpg" style="width:100%" height="620px" width="100%";>
-							<div class="text">NISSAN GTR</div>
-						</div>
-						<a class="prev" onclick="plusSlides(-1)">
-							<--Prev</a>
-								<a class="next" onclick="plusSlides(1)">Next--></a>
-							</div>
-							<br>
-								<div style="text-align:center">
-									<span class="dot" onclick="currentSlide(1)"/> 
-									<span class="dot" onclick="currentSlide(2)"/> 
-									<span class="dot" onclick="currentSlide(3)"/> 
-								</div>
-								<p> My name is Leo and I am currently a 2A Math student from the University of Waterloo.<br/ >
-		Roadster, two-seat car with emphasis on sporting appearance or character, is every growup's dream.<br />
-		However, roadsters are usually expensive to own due to their incrediably high costs and they are hardly seen on the road.<br />
-		Have you ever seen a roadster on the road but unfortunately knows nothing about that "beast"?<br />
-		I made this website in order to give some information about those supercars.<br />
-		Enjoy!
-									</p>
+
+
 									<div id="first">Experience the</div>
 									<div id="second">FAST</div>
 									<div id="third"> AND FURIOUS</div>
@@ -231,34 +153,7 @@ a:link {
 											<a href="new 2.html">Starts </a>
 										</span>
 									</button>
-									<script>
-										var slideIndex = 1;
-										showSlides(slideIndex);
-
-										function plusSlides(n) {
-										  showSlides(slideIndex += n);
-										}
-
-										function currentSlide(n) {
-										  showSlides(slideIndex = n);
-										}
-
-										function showSlides(n) {
-										  var i;
-										  var slides = document.getElementsByClassName("mySlides");
-										  var dots = document.getElementsByClassName("dot");
-										  if (n > slides.length) {slideIndex = 1}    
-										  if (n < 1) {slideIndex = slides.length} ;
-										  for (i = 0; i < slides.length; i++) {
-											  slides[i].style.display = "none";  
-										  }
-										  for (i = 0; i < dots.length; i++) {
-											  dots[i].className = dots[i].className.replace(" active", "");
-										  }
-										  slides[slideIndex-1].style.display = "block";  
-										  dots[slideIndex-1].className += " active";
-										}
-									</script>
+									
 		</body>
 	</html>
 												</html> 
