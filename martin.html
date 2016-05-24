@@ -65,6 +65,11 @@ top:19%;
 left:45%;
 font-family:cursive;
 color:white;
+-webkit-animation: fadein 3s; 
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
 }
 
 .sc {
@@ -79,6 +84,11 @@ top:70%;
 left:45%;
 font-family:cursive;
 color:white;
+-webkit-animation: fadein 4s; 
+       -moz-animation: fadein 4s; 
+        -ms-animation: fadein 4s; 
+         -o-animation: fadein 4s; 
+            animation: fadein 4s;
 }
 
 .gtc {
@@ -93,6 +103,35 @@ top:120%;
 left:45%;
 font-family:cursive;
 color:white;
+-webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s; 
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/for Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* for chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* for ie */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 
