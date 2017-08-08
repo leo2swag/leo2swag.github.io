@@ -11,6 +11,36 @@
    * 2. Prevent iOS and IE text size adjust after device orientation change,
    *    without disabling user zoom.
    */
+
+//this is for css added
+body {
+  margin: 0;
+  background: blue;
+  overflow: hidden;
+}
+
+#perspective {
+  margin-left: calc((100vw - 50vmin) / 2);
+  margin-top: calc((100vh - 50vmin) / 4);
+  width: 50vmin;
+  height: 50vmin;
+  perspective: 60vmin;
+}
+
+#container {
+  width: 50vmin;
+  height: 50vmin;
+  line-height: 0;
+  transform-style: preserve-3d;
+}
+
+.box {
+  display: inline-block;
+  background: black;
+}
+
+//this done for css added
+
 html {
   font-family: sans-serif;
   /* 1 */
