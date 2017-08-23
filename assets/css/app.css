@@ -20,15 +20,15 @@ body {
 }
 
 #perspective {
-  margin-left: calc((60vw - 30vmin) / 2);
-  margin-top: calc((60vh - 30vmin) / 4);
-  width: 30vmin;
-  height: 30vmin;
+  /*margin-left: calc((60vw - 30vmin) / 2);
+  margin-top: calc((60vh - 30vmin) / 4);*/
+  width: 50vmin;
+  height: 50vmin;
   perspective: 60vmin;
 }
 
 #container {
-  width: 30vmin;
+  width: 90vmin;
   height: 30vmin;
   line-height: 0;
   transform-style: preserve-3d;
