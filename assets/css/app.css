@@ -22,6 +22,7 @@ body {
 #perspective {
   /*margin-left: calc((60vw - 30vmin) / 2);
   margin-top: calc((60vh - 30vmin) / 4);*/
+  padding-left: 85px;
   width: 50vmin;
   height: 50vmin;
   perspective: 60vmin;
@@ -5583,6 +5584,8 @@ header.homeHeader {
   
 .evalImg {
 	background-image: url("../img/outstanding.jpg");}
+
+.wfmImg {background-image: url("../img/workforec.png");}
 
 .testimonial {
   background-color: #008faf; }
