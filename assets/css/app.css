@@ -5208,8 +5208,8 @@ p.seeStories {
       color: #0a38e6; }
 
 .angleHeader {
-	background-image:url("../img/navBG.jpg");
-  height: 460px;
+	background-image:url("../img/bluebg.jpg");
+  height: 260px;
   position: relative; }
   .angleHeader .container {
     position: relative; }
@@ -5217,7 +5217,7 @@ p.seeStories {
     position: relative;
     z-index: 4; }
   .angleHeader:before {
-	  background-image:url("../img/navBG.jpg");
+	  background-image:url("../img/bluebg.jpg");
     content: '';
     position: absolute;
     bottom: -20%;
@@ -5225,10 +5225,10 @@ p.seeStories {
     height: 50%;
     width: 50.25%;
     -ms-transform: skew(0deg, 10deg);
-    transform: skew(0deg, 10deg);
+    transform: skew(0deg, 15deg);
     z-index: 3; }
   .angleHeader:after {
-	  background-image:url("../img/navBG.jpg");
+	  background-image:url("../img/bluebg.jpg");
     content: '';
     position: absolute;
     bottom: -20%;
@@ -5236,7 +5236,7 @@ p.seeStories {
     height: 50%;
     width: 50%;
     -ms-transform: skew(0deg, -10deg);
-    transform: skew(0deg, -10deg);
+    transform: skew(0deg, -15deg);
     z-index: 3; }
 
 header {
@@ -5540,7 +5540,7 @@ header.homeHeader {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  min-height: 95vh; }
+  min-height: 65vh; }
   .retailQuote .container {
     padding-top: 18%; }
   .retailQuote .quote {
@@ -6202,9 +6202,9 @@ footer {
   .check {
     margin: 15px 20px 30px 0; }
   .retailQuote {
-    min-height: 0; }
+    min-height: 20; }
     .retailQuote .container {
-      padding: 30% 3% 15%; }
+      padding: 120% 3% 15%; }
   .testimonial .container {
     padding-top: 10%; } }
 
@@ -6230,12 +6230,12 @@ footer {
     width: 35px;
     left: 3%; }
   .angleHeader {
-	   background-image:url("../img/navBG.jpg");
-    height: 430px;
+	   background-image:url("../img/bluebg.jpg");
+    height: 260px;
     padding-top: 85px; }
     .angleHeader:before, .angleHeader:after {
-		background-image:url("../img/navBG.jpg");
-      bottom: -15%; }
+		background-image:url("../img/bluebg.jpg");
+      bottom: -25%; }
   .afterAngleHeader .container {
     padding-top: 30%; }
   .chatIcon,
@@ -6269,7 +6269,7 @@ footer {
     font-size: 55%; }
   .columns,
   .CTA .columns {
-    padding: 0 8%; }
+    padding: 0 4%; }
   section {
     padding: 15% 0; }
   .wrapper {
@@ -6420,10 +6420,10 @@ footer {
     header h2 {
       padding-bottom: 0; }
   .angleHeader:before, .angleHeader:after {
-	  background-image:url("../img/navBG.jpg");
-    bottom: -6%; }
+	  background-image:url("../img/bluebg.jpg");
+    bottom: -30%; }
   .angleHeader:before {
-	  background-image:url("../img/navBG.jpg");
+	  background-image:url("../img/bluebg.jpg");
     width: 50.50%; }
   .breadcrumbs {
     padding-left: 3%; }
@@ -6618,7 +6618,7 @@ footer {
     .homeBusiness .check {
       margin: 10px 20px 50px 0; }
   .retailQuote .container {
-    padding: 10% 3% 8%; }
+    padding: 30% 3% 8%; }
   .retailTransport .columns:last-child:not(:first-child) {
     float: right; }
   .services .columns .columns {
@@ -6836,7 +6836,7 @@ line-height: 150%;
 
 .bigredfont {
 	color:red;
-	font-size:60px;
+	font-size:55px;
 	font-weight:bold;
 }
 

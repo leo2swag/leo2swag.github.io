@@ -1,0 +1,206 @@
+
+.titles {
+	padding-left: 2%;
+	color: red;
+}
+
+.objectives {
+	background-color: rgb(224,224,224);
+}
+
+.kuanbiao {
+	background-color: rgb(224,224,224);
+	padding: 2% 0;
+}
+
+.bgred {
+	background-color: red;
+}
+
+.bgorange {
+	background-color: orange;
+}
+
+.breakLine {
+	height:20px;
+}
+
+.breakLineMenu {
+	height:120px;
+}
+
+.breakLineindex {
+	height: 60px;
+}
+
+.breakLine.grey {
+	background-color: rgb(224,224,224);
+}
+
+@media screen and (max-width: 39.9375em) {
+ section {
+ 	padding: 2% 0;
+ }
+  .small-txt-center {
+    text-align: center; }
+
+  .small-large {
+  	height: : 50px;
+  	} 
+
+  	.menu {
+  		padding-bottom: 40px;
+  		}}
+
+
+
+.white {
+	color: white;
+	font-weight: bold;
+}
+
+.indexbutton {
+	padding:30px; 
+	width:250px; 
+	height:100px;    
+	border: 5px solid #dedede;    
+    -moz-border-radius: 15px;      /* Gecko browsers */    
+    -webkit-border-radius: 15px;   /* Webkit browsers */    
+    border-radius:15px;            /* W3C syntax */}
+}
+
+.show {
+	display: ;
+}
+
+.disno {
+	display: none;
+}
+
+.gotobutton {
+border: 15px;   
+    -moz-border-radius: 25px;      /* Gecko browsers */    
+    -webkit-border-radius: 25px;   /* Webkit browsers */    
+    border-radius:25px; 
+}
+
+
+a.button.white {
+	color: black;
+	font-weight: bold;
+}
+
+a.indexbutton:hover, a.indexbutton:focus {
+	color:red;
+	font-size: 16px;
+}
+
+a.s1 {
+	margin-top: -30px;
+}
+
+a.s2 {
+	margin-top: 0px;
+}
+
+a.s3 {
+	margin-top: 20px;
+}
+
+a.showbutton {
+	display: none;
+}
+
+#first {
+	-webkit-animation: fadein 3s; 
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;}
+
+.slow1 {
+	-webkit-animation: fadein 3s; 
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;}
+
+ .slow2 {
+	-webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s; 
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;}
+
+.slow3 {
+	-webkit-animation: fadein 7s; 
+       -moz-animation: fadein 7s; 
+        -ms-animation: fadein 7s; 
+         -o-animation: fadein 7s; 
+            animation: fadein 7s;}
+
+
+#second {
+	
+	font-family:fantasy;
+	color:white;
+	-webkit-animation: fadein 7s; 
+       -moz-animation: fadein 7s; 
+        -ms-animation: fadein 7s; 
+         -o-animation: fadein 7s; 
+            animation: fadein 7s;}
+
+#one {
+	-webkit-animation: fadein 9s; 
+       -moz-animation: fadein 9s; 
+        -ms-animation: fadein 9s; 
+         -o-animation: fadein 9s; 
+            animation: fadein 9s;}
+
+#two {
+	-webkit-animation: fadein 12s; 
+       -moz-animation: fadein 12s; 
+        -ms-animation: fadein 12s; 
+         -o-animation: fadein 12s; 
+            animation: fadein 11s;}
+
+ #three {
+	-webkit-animation: fadein 15s; 
+       -moz-animation: fadein 15s; 
+        -ms-animation: fadein 15s; 
+         -o-animation: fadein 15s; 
+            animation: fadein 13s;}
+            
+ #four {
+	-webkit-animation: fadein 18s; 
+       -moz-animation: fadein 18s; 
+        -ms-animation: fadein 18s; 
+         -o-animation: fadein 18s; 
+            animation: fadein 15s;}
+            
+
+.sizeincrease {
+	font-size: 14px;
+	color:white;
+}
+
+.paddingtop5 {
+	padding-top: 5px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/for Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* for chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
