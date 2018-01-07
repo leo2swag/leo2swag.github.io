@@ -6382,6 +6382,11 @@ footer {
           padding-top: 5%; }
         .mobileTopBar ul.inner li:last-child {
           padding-bottom: 5%; }
+  .noleftright {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   p.seeStories {
     padding-top: 10px !important; }
   .desktopHidden {
@@ -6830,6 +6835,12 @@ footer {
       display: block; }
   .subProgress {
     width: 100%; }
+
+     .noleftright {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
   .trackingGroupNumberOne {
     position: relative;
     padding-top: 30px !important; } }
