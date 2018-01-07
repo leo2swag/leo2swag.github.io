@@ -5207,6 +5207,16 @@ p.seeStories {
     .navSearch .inner .fa-search:hover, .navSearch .inner .fa-search:focus {
       color: #0a38e6; }
 
+.warehousing.angleHeader:before {
+  background-image:url("../img/lastBG.jpg");
+  transform: skew(0deg, 8deg);
+}
+
+.warehousing.angleHeader:after {
+  background-image:url("../img/lastBG.jpg");
+  transform: skew(0deg, -8deg);
+}
+
 .angleHeader {
 	background-image:url("../img/bluebg.jpg");
   height: 260px;
@@ -6229,6 +6239,10 @@ footer {
   .logoIcon {
     width: 35px;
     left: 3%; }
+  .warehousing.angleHeader {
+    background-image:url("../img/lastBG.jpg");
+    height: 720px;
+  }
   .angleHeader {
 	   background-image:url("../img/bluebg.jpg");
     height: 260px;
@@ -6445,7 +6459,7 @@ footer {
     footer .socialMedia {
       padding-bottom: 15px; }
     footer .columns {
-      padding: 5% 0; }
+      padding: 0% 0; }
     footer .copyright .columns {
       padding: 0; }
   .toTop {
@@ -6471,6 +6485,9 @@ footer {
     padding-top: 15%; }
   .container {
     padding: 0; }
+  .bottom35 {
+    padding-bottom: 35px;
+  }
   .transportImg {
     position: relative;
     height: 50vh; }
@@ -6648,7 +6665,7 @@ footer {
   section.processVideo {
     padding-bottom: 0; }
   .warehousing .rightText {
-    padding-top: 10%; }
+    padding-top: 5%; }
     .warehousing .rightText .columns {
       padding: 0; }
   .point {

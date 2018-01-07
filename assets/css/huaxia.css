@@ -17,12 +17,51 @@
 	background-color: red;
 }
 
+.greyFont {
+  color: white;
+}
+
 .bgorange {
 	background-color: orange;
 }
 
+.section11 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.teradata {
+    background-image: url("../img/logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -35%;
+    left: 0;
+    right: 0;
+    margin: auto; 
+
+}
+
+.top30 {
+  padding-top: 40px;
+}
+
+.top20 {
+  padding-top: 20px;
+}
+
+.top3p {
+  margin-top: 3%;
+}
+
 .breakLine {
 	height:20px;
+}
+
+.LargebreakLine {
+  height: 155px;
 }
 
 .breakLineMenu {
@@ -85,9 +124,18 @@ border: 15px;
 }
 
 
-a.button.white {
+a.button.gotobutton {
 	color: black;
 	font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+a.button.show {
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 a.indexbutton:hover, a.indexbutton:focus {
@@ -95,17 +143,10 @@ a.indexbutton:hover, a.indexbutton:focus {
 	font-size: 16px;
 }
 
-a.s1 {
-	margin-top: -30px;
+#s1 {
+	margin-top: 60px;
 }
 
-a.s2 {
-	margin-top: 0px;
-}
-
-a.s3 {
-	margin-top: 20px;
-}
 
 a.showbutton {
 	display: none;
@@ -186,6 +227,51 @@ a.showbutton {
 
 .paddingtop5 {
 	padding-top: 5px;
+  color: white;
+}
+
+.weight {
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.silver {
+  color: silver;
+}
+
+.redline {
+  border-bottom: 2px solid red;
+}
+
+.grey {
+  border-bottom: 2px solid silver;
+}
+
+.nobotton {
+  padding-bottom: 0px;
+}
+
+.greyBG {
+    background-image: url("../img/lastBG.jpg");
+}
+
+
+.s1t {
+  font-size: 20px;
+  color: red;
+  font-style: italic;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  background-color: orange;
+  border-radius: 50%;
 }
 
 @keyframes fadein {
