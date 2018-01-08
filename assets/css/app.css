@@ -5149,7 +5149,7 @@ p.seeStories {
   padding-bottom: 0 !important; }
 
 .fa-angle-right {
-  padding-right: 5px; }
+  padding-right: 0px; }
 
 .stickyNav {
   position: fixed;
@@ -5559,8 +5559,11 @@ header.homeHeader {
     font-size: 2.8rem;
     line-height: 150%; }
 
-.retailTransport .transportImg {
-  background-image: url("../img/car.jpg"); }
+.retailTransport .transportImg1 {
+  background-image: url("../img/top1f.jpg"); }
+
+.retailTransport .transportImg2 {
+  background-image: url("../img/top2f.jpg"); }
 
 .retailTransport .columns:last-child:not(:first-child) {
   float: none; }
@@ -5586,13 +5589,13 @@ header.homeHeader {
   min-height: 800px; }
 
 .comImg {
-  background-image: url("../img/com.png"); }
+  background-image: url("../img/guanli2.jpg"); }
 
 .newsletterImg {
 	background-image: url("../img/newsletter.jpg");}
   
 .evalImg {
-	background-image: url("../img/outstanding.jpg");}
+	background-image: url("../img/guanli1.png");}
 
 .wfmImg {background-image: url("../img/workforce.png");}
 
@@ -6243,6 +6246,10 @@ footer {
     background-image:url("../img/lastBG.jpg");
     height: 720px;
   }
+  .warehousing.angleHeader.section2 {
+    background-image:url("../img/lastBG.jpg");
+    height: 1025px;
+  }
   .angleHeader {
 	   background-image:url("../img/bluebg.jpg");
     height: 260px;
@@ -6487,7 +6494,7 @@ footer {
     display: none; }
   .transportText {
     min-height: 40vh;
-    padding-top: 15%; }
+    padding-top: 2%; }
   .container {
     padding: 0; }
   .bottom35 {
@@ -6495,7 +6502,13 @@ footer {
   }
   .transportImg {
     position: relative;
-    height: 50vh; }
+    height: 30vh; }
+
+  .transportImg {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
   section.transport {
     padding: 0 0 15%; }
   .caseStudies .button {
@@ -6840,7 +6853,7 @@ footer {
     padding-left: 0px;
     padding-right: 0px;
   }
-  
+
   .trackingGroupNumberOne {
     position: relative;
     padding-top: 30px !important; } }

@@ -25,9 +25,21 @@
 	background-color: orange;
 }
 
+.nomargintop {
+  margin-top: 0px;
+}
+
 .section11 {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.whiteBG {
+  background-color: white;
+}
+
+.noleft {
+  padding-left: 0px;
 }
 
 .teradata {
@@ -48,6 +60,7 @@
   padding-top: 40px;
 }
 
+
 .top20 {
   padding-top: 20px;
 }
@@ -58,6 +71,10 @@
 
 .breakLine {
 	height:20px;
+}
+
+.breakLine50 {
+  height:50px;
 }
 
 .LargebreakLine {
@@ -243,6 +260,10 @@ a.showbutton {
   color: silver;
 }
 
+.noright {
+  padding-right: 0px;
+}
+
 .redline {
   border-bottom: 2px solid red;
 }
@@ -268,11 +289,22 @@ a.showbutton {
   padding-left: 100px;
 }
 
+.container.nopad {
+  padding-top: 0px;
+}
+
+.carouselImg .nopad {
+  padding-top: 0px;
+}
 .circle {
   width: 80px;
   height: 80px;
   background-color: orange;
   border-radius: 50%;
+}
+
+.greyBGcolor {
+  background-color: #F0F0F0;
 }
 
 @keyframes fadein {
