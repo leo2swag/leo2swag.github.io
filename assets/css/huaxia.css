@@ -42,6 +42,10 @@
   padding-left: 0px;
 }
 
+.left10 {
+  padding-left: 10px;
+}
+
 .teradata {
     background-image: url("../img/logo.jpg");
     background-size: cover;
@@ -56,8 +60,51 @@
 
 }
 
+.rotates1 {
+  background-image: url("../img/linkedin.png");
+  height: 45px;
+  width: 50px;
+}
+
+.rotates2 {
+  background-image: url("../img/instagram.png");
+  height: 45px;
+  width: 50px;
+}
+
+.rotatecss {
+  margin-top: 25px;
+  margin-left: 10%;
+}
+
+.rotaterightcss {
+  margin-top: 25px;
+  margin-right: 10%;
+}
+
+.marginright10 {
+  margin-right: 15px;
+}
+
+.marginleft10 {
+  margin-left: 15px;
+}
+
+.bordercss {
+  border: 3px solid #dedede;    
+    -moz-border-radius: 15px;      /* Gecko browsers */    
+    -webkit-border-radius: 15px;   /* Webkit browsers */    
+    border-radius:15px;            /* W3C syntax */
+    background-color: yellow;
+
+}
+
 .top30 {
   padding-top: 40px;
+}
+
+.top50 {
+  padding-top: 50px;
 }
 
 
@@ -67,6 +114,22 @@
 
 .top3p {
   margin-top: 3%;
+}
+
+.top23margin {
+  margin-top: 23px;
+}
+
+.margintop50 {
+  margin-top: 50px;
+}
+
+.margintop70 {
+  margin-top: 70px;
+}
+
+.smallfont {
+  font-size: 10px;
 }
 
 .breakLine {
@@ -93,7 +156,37 @@
 	background-color: rgb(224,224,224);
 }
 
+.box1 {
+  background-color: #AE0000;
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+  margin-right: 5px;
+}
 
+.box2 {
+  background-color: #FF0000;
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.box3 {
+  background-color: #FFAF60;
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.box4 {
+  background-color: #ADADAD;
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+  margin-right: 5px;
+}
 @media screen and (max-width: 39.9375em) {
  section {
  	padding: 2% 0;
@@ -254,6 +347,7 @@ a.showbutton {
 
 .red {
   color: red;
+  font-size: 22px;
 }
 
 .silver {
@@ -323,3 +417,44 @@ a.showbutton {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+
+.testJS {
+  height: 500px;
+  background-color: grey;
+}
+
+.onedown {
+  margin-left: 5%;
+  height: 20px;
+  width: 20%;
+  display: block;
+  background-color: black;
+}
+
+.divs {
+
+  margin-left: 5%;
+  height: 240px;
+  width: 20%;
+  display: block;
+  background-color: grey;
+}
+
+.oneup {
+  
+  margin-left: 5%;
+  height: 0px;
+  width: 20%;
+  display: block;
+  background-color: red;
+}
+
+#chart, #chartData{background:url("images/gradient.png") repeat-x 0 0;}
+#chart{display:block;margin:0 0 0 0;float:left;cursor:pointer;margin-left: 12%;}
+#chartData{font-size:10px;width:200px;margin:0 40px 0 0;margin-right:25%;margin-top:5%;float:right;border-collapse:collapse;box-shadow:0 0 1em rgba(0, 0, 0, 0.5);-moz-box-shadow:0 0 1em rgba(0, 0, 0, 0.5);-webkit-box-shadow:0 0 1em rgba(0, 0, 0, 0.5);background-position:0 -100px;}
+#chartData th, #chartData td{padding:0.5em;border:1px dotted #666;text-align:left;}
+#chartData th{border-bottom:2px solid #333;text-transform:uppercase;}
+#chartData td{cursor:pointer;}
+#chartData td.highlight{background:#e8e8e8;}
+#chartData tr:hover td{background:#f0f0f0;}
