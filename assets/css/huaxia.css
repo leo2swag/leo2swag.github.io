@@ -99,6 +99,10 @@
 
 }
 
+.breakLine350 {
+  height: 350px;
+}
+
 .top30 {
   padding-top: 40px;
 }
@@ -292,6 +296,15 @@ a.showbutton {
             animation: fadein 7s;}
 
 
+.chartshows {
+  -webkit-animation: fadein 7s; 
+       -moz-animation: fadein 7s; 
+        -ms-animation: fadein 7s; 
+         -o-animation: fadein 7s; 
+            animation: fadein 7s;}
+}
+
+
 #second {
 	
 	font-family:fantasy;
@@ -424,6 +437,10 @@ a.showbutton {
   background-color: grey;
 }
 
+.margintopAlot {
+  margin-top: 400px;
+}
+
 .onedown {
   margin-left: 5%;
   height: 20px;
@@ -448,6 +465,10 @@ a.showbutton {
   width: 20%;
   display: block;
   background-color: red;
+}
+
+.width20 {
+  width: 55px;
 }
 
 #chart, #chartData{background:url("images/gradient.png") repeat-x 0 0;}

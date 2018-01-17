@@ -17,6 +17,7 @@ window.Chart = function(context){
 	//http://www.robertpenner.com/easing/
 	
 	var animationOptions = {
+
 		linear : function (t){
 			return t;
 		},
@@ -151,8 +152,9 @@ window.Chart = function(context){
 	var width = context.canvas.width;
 	var height = context.canvas.height;
 
-
+	
 	//High pixel density displays - multiply the size of the canvas height/width by the device pixel ratio, then scale.
+	
 	if (window.devicePixelRatio) {
 		context.canvas.style.width = width + "px";
 		context.canvas.style.height = height + "px";
@@ -160,6 +162,7 @@ window.Chart = function(context){
 		context.canvas.width = width * window.devicePixelRatio;
 		context.scale(window.devicePixelRatio, window.devicePixelRatio);
 	}
+	
 
 	this.PolarArea = function(data,options){
 	
@@ -243,6 +246,7 @@ window.Chart = function(context){
 		return new Radar(data,config,context);
 	};
 	
+	
 	this.Pie = function(data,options){
 		chart.Pie.defaults = {
 			segmentShowStroke : true,
@@ -260,6 +264,7 @@ window.Chart = function(context){
 		
 		return new Pie(data,config,context);				
 	};
+
 	
 	this.Doughnut = function(data,options){
 	
@@ -748,7 +753,7 @@ window.Chart = function(context){
 			segmentTotal += data[i].value;
 		}
 		
-		
+
 		animationLoop(config,null,drawPieSegments,ctx);
 		
 		

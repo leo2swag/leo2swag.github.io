@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.2.0/lity.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/css/huaxia.css">
+    <script src='assets/js/angular.min.js'></script>
+    <script src="assets/js/index.js"></script>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/Chart.js"></script>
     <script src="assets/js/pieChart.js"></script>
     <script src="assets/js/huaxia.js"></script>
+
   </head>
   <body onload="rotateIt(), rotateIt2()"> 
-  <section name="piechartpg6">
+  <section name="piechartpg6" id="resourcepage">
 
     <section name="rotateMan1">
       <div class="small-4 columns rotates1 rotatecss" id="rotatesecond">
@@ -33,7 +37,7 @@
     <section name="navWhy" class="top20">
       <div class="container">
       <div class="row" align="center">
-        <canvas id="chart" height="350"></canvas>
+        <canvas id="chart" height="350" class="chartshows"></canvas>
         <table id="chartData">
               <tr style="color:#000093">
                 <td><div class="box1" height="20px" width="20px"></div>未授信客户</td><td>3.4万</td>
@@ -124,8 +128,7 @@
     <section>
       <div class="row">
           <div class="small-8 columns">
-              <canvas id="canvas" height="210px" width="230px"></canvas>
-              
+              <canvas color="green" height="210px" width="230px" class="testest"></canvas>
           </div>
            <div class="small-4 columns top50">
             <table>
@@ -248,11 +251,66 @@
 
     </section>
 
+
+     <section name="navWhy" class="top20">
+      <div class="container">
+        <div class="row">
+          <div class="medium-6 columns">
+              
+
+
+                  <div class="medium-6 columns small-12 section11">
+                  <hr class="greyline"/>
+                <h3 class="medium-centered columns text-center">
+                  折线图
+                </h3>
+                <hr class="greyline"/>
+              </div>
+
+           
+          </div>
+
+          </div>
+          </div>
+          <div class="breakLine"></div>
     </section>
-         
+
+    <SECTION>
+     
+          <main class="remainMain" color="green" ng-app="myApp">
+          <div class="container" align="center">
+          <figure ng-controller="graphCtrl" class="marginright10 margintopAlot">
+          <div graph data="sampleData">
+            <div class="width20">
+              <span data-point></span>
+            </div>
+            <div class="width20">
+              <span data-point></span>
+            </div>
+             <div class="width20">
+              <span data-point></span>
+            </div>
+            <div class="width20">
+              <span data-point></span>
+            </div>
+             <div class="width20">
+              <span data-point></span>
+            </div>
+            </div>
+           
+          </figure>
+          </div>
+          </main>
+</SECTION>
+
+<div class="breakLine350"></div>
+   
+
+    
   
    
     <script>
+    /*
         var pieData = [
           {
             value: 2,
@@ -271,7 +329,7 @@
             color: "#ADADAD"
           }
       ];
-
+  */
       var pieData2 = [
           {
             value: 4,
@@ -292,7 +350,8 @@
 
       ];
 
-      var myPie = new Chart(document.getElementById("canvas").getContext("2d")).Pie(pieData);
+      //var myPie = new Chart(document.getElementById("canvas").getContext("2d")).Pie(pieData);
+
       var myPie2 = new Chart(document.getElementById("canvas2").getContext("2d")).Pie(pieData2);
     </script>
 

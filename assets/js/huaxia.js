@@ -56,3 +56,91 @@ function clickcheck() {
 function check() {
 	clickcheck();
 };
+
+var pieData = [
+          {
+            value: 2,
+            color: "#AE0000"
+          },
+          {
+            value: 10,
+            color: "#FF0000"
+          },
+          {
+            value: 50,
+            color: "#FFAF60" 
+          },
+          {
+            value: 38,
+            color: "#ADADAD"
+          }
+      ];
+
+function testCheck() {
+	 
+	var sample = document.getElementsByClassName("testest")[0];
+	//sample.setAttribute("color", "red");
+	if (sample.attributes[0].value == "green") {
+	sample.setAttribute("id","canvas");
+	//sample.getAttributeNode("style").value="color:green";
+	
+	
+	var myPie = new Chart(document.getElementById("canvas").getContext("2d")).Pie(pieData);
+	}
+}
+
+function testCheck22() {
+	 
+	var sample = document.getElementsByClassName("testest")[0];
+	sample.setAttribute("color", "red");
+}
+
+function checkreturn() {
+	var sample = document.getElementsByClassName("testest")[0];
+	//sample.setAttribute("color", "red");
+	if (sample.attributes[0].value == "green") {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function setAngualr() {
+	var angularTriggle = document.getElementsByClassName("remainMain")[0];
+	//if (angularTriggle.attributes[1].value == "green") {
+	angularTriggle.setAttribute("ng-app", "myApp");
+//}
+}
+
+function setAngualr2() {
+	 
+	var angularTriggle = document.getElementsByClassName("remainMain")[0];
+	angularTriggle.setAttribute("color", "red");
+}
+
+function angularAnimation() {
+	 console.log('ssssssssssss');
+
+}
+
+$(document).ready(function() {
+        var p = 0,
+            t = 0;
+        //var check11 = checkreturn();
+        $(window).scroll(function(e) {
+        	//lineChartShow();
+            p = $(this).scrollTop();
+            console.log('p value ' + p);
+            if ( p >= 520 && p <= 815) {
+            	testCheck();
+            	testCheck22();
+            } 
+
+            if (p >= 1410 && p <= 1600) {
+            }
+
+            setTimeout(function() {
+                t = p;
+            }, 0);
+        });
+    });
