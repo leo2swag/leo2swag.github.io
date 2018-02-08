@@ -5149,7 +5149,7 @@ p.seeStories {
   padding-bottom: 0 !important; }
 
 .fa-angle-right {
-  padding-right: 0px; }
+  padding-right: 5px; }
 
 .stickyNav {
   position: fixed;
@@ -5207,19 +5207,9 @@ p.seeStories {
     .navSearch .inner .fa-search:hover, .navSearch .inner .fa-search:focus {
       color: #0a38e6; }
 
-.warehousing.angleHeader:before {
-  background-image:url("../img/lastBG.jpg");
-  transform: skew(0deg, 8deg);
-}
-
-.warehousing.angleHeader:after {
-  background-image:url("../img/lastBG.jpg");
-  transform: skew(0deg, -8deg);
-}
-
 .angleHeader {
-	background-image:url("../img/bluebg.jpg");
-  height: 260px;
+	background-image:url("../img/navBG.jpg");
+  height: 460px;
   position: relative; }
   .angleHeader .container {
     position: relative; }
@@ -5227,7 +5217,7 @@ p.seeStories {
     position: relative;
     z-index: 4; }
   .angleHeader:before {
-	  background-image:url("../img/bluebg.jpg");
+	  background-image:url("../img/navBG.jpg");
     content: '';
     position: absolute;
     bottom: -20%;
@@ -5235,10 +5225,10 @@ p.seeStories {
     height: 50%;
     width: 50.25%;
     -ms-transform: skew(0deg, 10deg);
-    transform: skew(0deg, 15deg);
+    transform: skew(0deg, 10deg);
     z-index: 3; }
   .angleHeader:after {
-	  background-image:url("../img/bluebg.jpg");
+	  background-image:url("../img/navBG.jpg");
     content: '';
     position: absolute;
     bottom: -20%;
@@ -5246,7 +5236,7 @@ p.seeStories {
     height: 50%;
     width: 50%;
     -ms-transform: skew(0deg, -10deg);
-    transform: skew(0deg, -15deg);
+    transform: skew(0deg, -10deg);
     z-index: 3; }
 
 header {
@@ -5550,7 +5540,7 @@ header.homeHeader {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  min-height: 65vh; }
+  min-height: 95vh; }
   .retailQuote .container {
     padding-top: 18%; }
   .retailQuote .quote {
@@ -5559,11 +5549,8 @@ header.homeHeader {
     font-size: 2.8rem;
     line-height: 150%; }
 
-.retailTransport .transportImg1 {
-  background-image: url("../img/top1f.jpg"); }
-
-.retailTransport .transportImg2 {
-  background-image: url("../img/top2f.jpg"); }
+.retailTransport .transportImg {
+  background-image: url("../img/car.jpg"); }
 
 .retailTransport .columns:last-child:not(:first-child) {
   float: none; }
@@ -5589,13 +5576,13 @@ header.homeHeader {
   min-height: 800px; }
 
 .comImg {
-  background-image: url("../img/guanli2.jpg"); }
+  background-image: url("../img/com.png"); }
 
 .newsletterImg {
 	background-image: url("../img/newsletter.jpg");}
   
 .evalImg {
-	background-image: url("../img/guanli1.png");}
+	background-image: url("../img/outstanding.jpg");}
 
 .wfmImg {background-image: url("../img/workforce.png");}
 
@@ -6215,9 +6202,9 @@ footer {
   .check {
     margin: 15px 20px 30px 0; }
   .retailQuote {
-    min-height: 20; }
+    min-height: 0; }
     .retailQuote .container {
-      padding: 120% 3% 15%; }
+      padding: 30% 3% 15%; }
   .testimonial .container {
     padding-top: 10%; } }
 
@@ -6242,21 +6229,13 @@ footer {
   .logoIcon {
     width: 35px;
     left: 3%; }
-  .warehousing.angleHeader {
-    background-image:url("../img/lastBG.jpg");
-    height: 720px;
-  }
-  .warehousing.angleHeader.section2 {
-    background-image:url("../img/lastBG.jpg");
-    height: 1025px;
-  }
   .angleHeader {
-	   background-image:url("../img/bluebg.jpg");
-    height: 260px;
+	   background-image:url("../img/navBG.jpg");
+    height: 430px;
     padding-top: 85px; }
     .angleHeader:before, .angleHeader:after {
-		background-image:url("../img/bluebg.jpg");
-      bottom: -25%; }
+		background-image:url("../img/navBG.jpg");
+      bottom: -15%; }
   .afterAngleHeader .container {
     padding-top: 30%; }
   .chatIcon,
@@ -6290,7 +6269,7 @@ footer {
     font-size: 55%; }
   .columns,
   .CTA .columns {
-    padding: 0 4%; }
+    padding: 0 8%; }
   section {
     padding: 15% 0; }
   .wrapper {
@@ -6389,11 +6368,6 @@ footer {
           padding-top: 5%; }
         .mobileTopBar ul.inner li:last-child {
           padding-bottom: 5%; }
-  .noleftright {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   p.seeStories {
     padding-top: 10px !important; }
   .desktopHidden {
@@ -6446,10 +6420,10 @@ footer {
     header h2 {
       padding-bottom: 0; }
   .angleHeader:before, .angleHeader:after {
-	  background-image:url("../img/bluebg.jpg");
-    bottom: -30%; }
+	  background-image:url("../img/navBG.jpg");
+    bottom: -6%; }
   .angleHeader:before {
-	  background-image:url("../img/bluebg.jpg");
+	  background-image:url("../img/navBG.jpg");
     width: 50.50%; }
   .breadcrumbs {
     padding-left: 3%; }
@@ -6471,7 +6445,7 @@ footer {
     footer .socialMedia {
       padding-bottom: 15px; }
     footer .columns {
-      padding: 0% 0; }
+      padding: 5% 0; }
     footer .copyright .columns {
       padding: 0; }
   .toTop {
@@ -6494,21 +6468,12 @@ footer {
     display: none; }
   .transportText {
     min-height: 40vh;
-    padding-top: 2%; }
+    padding-top: 15%; }
   .container {
     padding: 0; }
-  .bottom35 {
-    padding-bottom: 35px;
-  }
   .transportImg {
     position: relative;
-    height: 30vh; }
-
-  .transportImg {
-    padding-left: 8%;
-    padding-right: 8%;
-  }
-
+    height: 50vh; }
   section.transport {
     padding: 0 0 15%; }
   .caseStudies .button {
@@ -6653,7 +6618,7 @@ footer {
     .homeBusiness .check {
       margin: 10px 20px 50px 0; }
   .retailQuote .container {
-    padding: 30% 3% 8%; }
+    padding: 10% 3% 8%; }
   .retailTransport .columns:last-child:not(:first-child) {
     float: right; }
   .services .columns .columns {
@@ -6683,7 +6648,7 @@ footer {
   section.processVideo {
     padding-bottom: 0; }
   .warehousing .rightText {
-    padding-top: 5%; }
+    padding-top: 10%; }
     .warehousing .rightText .columns {
       padding: 0; }
   .point {
@@ -6848,12 +6813,6 @@ footer {
       display: block; }
   .subProgress {
     width: 100%; }
-
-     .noleftright {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   .trackingGroupNumberOne {
     position: relative;
     padding-top: 30px !important; } }
@@ -6877,7 +6836,7 @@ line-height: 150%;
 
 .bigredfont {
 	color:red;
-	font-size:55px;
+	font-size:60px;
 	font-weight:bold;
 }
 

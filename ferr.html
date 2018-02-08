@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.m3 {
+position:absolute;
+top:20%;
+left:20%;}
+
+.m5 {
+position:absolute;
+top:70%;
+left:20%;}
+
+.x5m {
+position:absolute;
+top:120%;
+left:20%;}
+
+.i8 {
+position:absolute;
+top:170%;
+left:20%;
+margin-bottom:400px;}
+
+ul {
+position:fixed;
+top:0px;
+left:0px;
+height:1500px;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+text-align:center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+span {
+color:red;
+font-weight:bolder;}
+
+.m3c {
+
+text-align:center;
+width:350px:
+height:350px;
+margin:10px;
+padding:10px;
+position:absolute;
+top:19%;
+left:45%;
+font-family:cursive;
+color:white;
+-webkit-animation: fadein 3s; 
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
+}
+
+.m5c {
+
+text-align:center;
+width:350px:
+height:350px;
+margin:10px;
+padding:10px;
+position:absolute;
+top:70%;
+left:45%;
+font-family:cursive;
+color:white;
+-webkit-animation: fadein 4s; 
+       -moz-animation: fadein 4s; 
+        -ms-animation: fadein 4s; 
+         -o-animation: fadein 4s; 
+            animation: fadein 4s;
+}
+
+.x5mc {
+
+text-align:center;
+width:350px:
+height:350px;
+margin:10px;
+padding:10px;
+position:absolute;
+top:120%;
+left:45%;
+font-family:cursive;
+color:white;
+-webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s; 
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+
+}
+
+.i8c {
+
+text-align:center;
+width:350px:
+height:350px;
+margin:10px;
+padding:10px;
+position:absolute;
+top:167%;
+left:45%;
+font-family:cursive;
+color:white;
+-webkit-animation: fadein 6s; 
+       -moz-animation: fadein 6s; 
+        -ms-animation: fadein 6s; 
+         -o-animation: fadein 6s; 
+            animation: fadein 6s;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/for Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* for chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* for ie */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.button {
+
+opacity:0.7;filter:alpha(opacity=70);
+position:absolute;
+font-family:fantasy;
+top: 5%;
+left: 85%;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: red;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content:'<--';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+.button:hover span {
+color:black;
+  padding-right: 40px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+body {
+		background-image:url(alogo.jpg);
+		}
+		
+#c {
+position:absolute;
+left:11%;
+text-align：center;
+color:white;}
+
+</style>
+</head>
+<body>
+
+<button class="button"><span><a href="new 2.html">Back </a></span></button>
+
+<ul>
+  <li><a class="active" href="#home">Ferrari</a></li>
+  <li><a href="#m3">Ferrari 488 GTB</a></li>
+  <li><a href="#m5">Ferrari F12 TDF</a></li>
+  <li><a href="#x5m">Ferrari California T</a></li>
+   <li><a href="#i8">Laferrari</a></li>
+</ul>
+<a name="m3"></a>
+<img src="1.png" height="200px" width="350px" class="m3" />
+<a name="m5"></a>
+<img src="2.jpg" height="200px" width="350px" class="m5" />
+<a name="x5m"></a>
+<img src="3.jpg" height="200px" width="350px" class="x5m" />
+<a name="i8"></a>
+<img src="4.png" height="200px" width="350px" class="i8" />
+
+<p class="m3c"><span>Ferrari 488 GTB :</span> With its twin-turbo 3.9-liter V-8 located behind you, you'll enjoy its sonorous wail, and ferocious acceleration,
+ all the way to 8000 rpm, where it makes 661 hp. A dual-clutch seven-speed is the sole transmission; we estimate a 0-60 time of 3.0 seconds. Ferrari's revised 
+ adaptive suspension provides a relatively compliant ride without sacrificing handling. For those who really want to hear that V-8 sing, the Spider offers 
+ a retractable hardtop that raises or lowers at speeds up to 25 mph. </p>
+
+<p class="m5c"><span>Ferrari F12 TDF :</span> Sure, it costs more than a house, but the metal-melting aria from that incredibly operatic engine-priceless. 
+The F12berlinetta is everything you could want from an Italian supercar. Power comes from a 730-hp 6.3-liter V-12, mated to a seven-speed dual-clutch automatic
+ with rear-wheel drive. Even with all that power, the F12berlinetta is one of Ferrari's more comfortable cars, making it a true daily-driver. For the ultimate,
+ there's the F12tdf, with 769 hp and downforce-improving aero add-ons</p>
+
+<p class="x5mc"><span>Ferrari California T :</span> The California T is Ferrari's return to forced induction, but where the last turbo Ferrari was the beastly 
+F40, the T is far tamer. It's the softest in the Ferrari range, designed for daily ease and use-it even has a cupholder. Powered by a 552-hp 3.9-liter V-8 
+\mated to a seven-speed dual-clutch auto, the T is plenty quick and agile, though not as rewarding as a 488. The folding top tucks into the top half of the 
+trunk; while technically the T is a 2+2, the rear is better suited for luggage</p>
+
+<p class="i8c"><span>Laferrari :</span> Above sports cars, there are exotic sports cars and then there's the LaFerrari. While the coupe is no longer sold, 
+rumors hint at a topless Spider model. Expect it to have the same 789-hp V-12 as its hardtop predecessor, with a 161-hp boost from an electric motor. 
+That's right. it's a hybrid-enabling it to accelerate like a Bugatti Chiron while achieving somewhat respectable fuel economy. Far prettier than its 
+predecessor, the Enzo, the LaFerrari is styled like a ground-bound fighter jet</p>
+<hr><div id="c">All info is from caranddriver.com<div><hr><hr>
+</body>
+</html>
+

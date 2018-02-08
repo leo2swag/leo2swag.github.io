@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<style>
+body {
+background-color:black;
+background-image: url(bg2.jpg);
+}
+
+
+a:link {
+	color: black;;
+	text-decoration: underline;}
+	a:visited {
+	color: black;
+	text-decoration: underline;}
+	a:hover {
+	background-color:#2e2929;
+	color:white;
+	text-decoration: underline;}
+	a:active {
+	background-color:black;
+	color:white;}
+
+.button {
+	opacity:0.7;filter:alpha(opacity=70);
+	position:absolute;
+	font-family:fantasy;
+	top: 90%;
+	left: 88%;
+	border-radius: 4px;
+	background-color: grey;
+	border: none;
+	color: black;
+	text-align: center;
+	font-size: 28px;
+	padding: 10px;
+	width: 150px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+	}
+
+.button span:after {
+	content:'-->';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	transition: 0.5s;
+	}
+
+.button:hover span {
+	padding-right: 40px;
+	}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+	}
+
+#first {
+	text-decoration:underline;
+	width:1000px;
+	font-size:100px;
+	font-style:italic;
+	position:absolute;
+	top:30%;
+	left:0%;
+	font-family:fantasy;
+	color:white;
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+	-webkit-animation: fadein 4s; 
+       -moz-animation: fadein 4s; 
+        -ms-animation: fadein 4s; 
+         -o-animation: fadein 4s; 
+            animation: fadein 4s;}
+
+#second {
+	text-decoration:underline;
+	font-style:italic;
+	width:500px;
+	font-size:100px;
+	position:absolute;
+	top:50%;
+	left:10%;
+	font-family:fantasy;
+	color:white;
+	-ms-transform: rotate(-17deg);
+	-webkit-transform: rotate(-17deg);
+	transform: rotate(-17deg);
+	-webkit-animation: fadein 6s; 
+       -moz-animation: fadein 6s; 
+        -ms-animation: fadein 6s; 
+         -o-animation: fadein 6s; 
+            animation: fadein 6s;}
+	
+	#third {
+	text-decoration:underline;
+	font-style:italic;
+	width:500px;
+	font-size:100px;
+	position:absolute;
+	top:57%;
+	left:20%;
+	font-family:fantasy;
+	color:white;
+	-ms-transform: rotate(-19deg);
+	-webkit-transform: rotate(-19deg);
+	transform: rotate(-19deg);
+	-webkit-animation: fadein 7s; 
+       -moz-animation: fadein 7s; 
+        -ms-animation: fadein 7s; 
+         -o-animation: fadein 7s; 
+            animation: fadein 7s;}
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/for Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* for chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+	</style>
+	<body>
+
+
+									<div id="first">Experience the</div>
+									<div id="second">FAST</div>
+									<div id="third"> AND FURIOUS</div>
+									<div id="front">It's all about the dream !</div>
+									<button class="button">
+										<span>
+											<a href="new 2.html">Starts </a>
+										</span>
+									</button>
+									
+		</body>
+	</html>
+												</html> 
+												

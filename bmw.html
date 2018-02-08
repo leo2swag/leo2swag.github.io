@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.m3 {
+position:absolute;
+top:20%;
+left:20%;}
+
+.m5 {
+position:absolute;
+top:70%;
+left:20%;}
+
+.x5m {
+position:absolute;
+top:120%;
+left:20%;}
+
+.i8 {
+position:absolute;
+top:170%;
+left:20%;
+margin-bottom:400px;}
+
+ul {
+position:fixed;
+top:0px;
+left:0px;
+height:1500px;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+text-align:center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+span {
+color:red;
+font-weight:bolder;}
+
+.m3c {
+
+text-align:center;
+width:350px:
+height:350px;
+margin:10px;
+padding:10px;
+position:absolute;
+top:19%;
+left:45%;
+font-family:cursive;
+color:white;
+-webkit-animation: fadein 3s; 
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
+}
+
+.m5c {
+
+text-align:center;
+width:350px:
+height:350px;
+margin:10px;
+padding:10px;
+position:absolute;
+top:70%;
+left:45%;
+font-family:cursive;
+color:white;
+-webkit-animation: fadein 4s; 
+       -moz-animation: fadein 4s; 
+        -ms-animation: fadein 4s; 
+         -o-animation: fadein 4s; 
+            animation: fadein 4s;
+}
+
+.x5mc {
+
+text-align:center;
+width:350px:
+height:350px;
+margin:10px;
+padding:10px;
+position:absolute;
+top:120%;
+left:45%;
+font-family:cursive;
+color:white;
+-webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s; 
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+.i8c {
+
+text-align:center;
+width:350px:
+height:350px;
+margin:10px;
+padding:10px;
+position:absolute;
+top:167%;
+left:45%;
+font-family:cursive;
+color:white;
+-webkit-animation: fadein 6s; 
+       -moz-animation: fadein 6s; 
+        -ms-animation: fadein 6s; 
+         -o-animation: fadein 6s; 
+            animation: fadein 6s;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/for Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* for chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* for ie */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.button {
+
+opacity:0.7;filter:alpha(opacity=70);
+position:absolute;
+font-family:fantasy;
+top: 5%;
+left: 85%;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: red;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content:'<--';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+.button:hover span {
+color:black;
+  padding-right: 40px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+body {
+		background-image:url(alogo.jpg);
+		}
+		
+#c {
+position:absolute;
+left:11%;
+text-align：center;
+color:white;}
+
+
+</style>
+</head>
+<body>
+
+<button class="button"><span><a href="new 2.html">Back </a></span></button>
+
+<ul>
+  <li><a class="active" href="#home">BMW</a></li>
+  <li><a href="#m3">BMW M3/M4</a></li>
+  <li><a href="#m5">BMW M5/M6</a></li>
+  <li><a href="#x5m">BMW X5M/X6M</a></li>
+   <li><a href="#i8">BMW I8</a></li>
+</ul>
+<a name="m3"></a>
+<img src="m3.jpg" height="200px" width="350px" class="m3" />
+<a name="m5"></a>
+<img src="m5.jpg" height="200px" width="350px" class="m5" />
+<a name="x5m"></a>
+<img src="x5m.jpg" height="200px" width="350px" class="x5m" />
+<a name="i8"></a>
+<img src="i8.jpg" height="200px" width="350px" class="i8" />
+
+<p class="m3c"><span>BMW M3/M4 :</span> Driving the M3 on great, twisty, traffic-free roads with high speed limits on the way to the track for an all-day <br />lapping session</p>
+
+<p class="m5c"><span>BMW M5/M6 :</span> Blending a tasteful yet aggressive design with extraordinary performance, the M6 is a sexy beast indeed. Power comes from a 560-hp 4.4-liter 
+twin-turbo V-8 mated to a seven-speed automatic or six-speed manual. Offered as a coupe or convertible, one might not expect such brutish power in what is a comfortable and 
+cosseting car, but that's exactly why we like it. Despite being more agile than the 6-series, the steering and the brakes lack the feedback needed to make the M6 a proper sports car.</p>
+
+<p class="x5mc"><span>BMW X5M/X6M :</span>With a snout full of radiators and intercoolers, this twin-turbo brute thumps with 567 hp and grips the road with giant tires on 21-inch wheels. 
+Fireball-quick, in our testing it hit 60 mph in 3.8 seconds. As a product of BMW's M division, its brakes are amazing and it handles road divots with an initial whack and absolute confidence. 
+The interior has a performance edge not seen in other X5s, with bolstered front seats and other details reminding you of just how Mmm Mmm good it is</p>
+
+<p class="i8c"><span>BMW I8 :</span>Three pistons combusting internally, a dollop of electrons and lots of aluminum and carbon fiber are the main ingredients for the i8. Its 357-hp hybrid powertrain 
+drives all four wheels; in our testing, the i8 hit 60 mph in 3.6 seconds but averaged just 26 MPGe. The poised chassis and sharp steering are good fun, 
+but eco-friendly tires and regenerative braking hinder performance. Familiar controls are nestled in a plush cabin and the i8's wild, eye-catching styling looks straight out of sci-fi</p>
+<hr><div id="c">All info is from caranddriver.com<div><hr><hr>
+</body>
+</html>
+
