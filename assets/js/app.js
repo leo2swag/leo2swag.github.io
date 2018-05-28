@@ -2,48 +2,6 @@
 
 
 //this is for js 
-container.animate({
-  transform: [
-    'rotateX(70deg) rotateZ(0deg)',
-    'rotateX(70deg) rotateZ(360deg)',
-  ],
-}, {
-  duration: 20000,
-  iterations: Infinity,
-});
-
-var sideCount = 20;
-var adjustment = (sideCount % 2) * 0.5;
-var min = -sideCount / 2 + adjustment;
-var max = sideCount / 2 + adjustment;
-
-for (var y = min; y < max; y++) {
-  for (var x = min; x < max; x++) {
-    var box = createBox();
-    box.animate({
-      transform: [
-        'translateZ(0px)',
-        'translateZ(40px)',
-      ],
-      opacity: [1, 0],
-    }, {
-      delay: (x*x + y*y) * 20,
-      duration: 2000,
-      iterations: Infinity,
-      direction: 'alternate',
-      easing: 'ease-in',
-    });
-  }
-}
-
-function createBox() {
-  var box = document.createElement('div');
-  box.className = 'box';
-  box.style.width = (100 / sideCount) + '%';
-  box.style.height = (100 / sideCount) + '%';
-  container.appendChild(box);
-  return box;
-}
 
 //this is done for js
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
