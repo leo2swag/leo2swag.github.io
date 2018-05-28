@@ -17,7 +17,7 @@ function rotatefinal1() {
 	if (fdet == 1) {
 		for (var i = 0; i < listlen; i++) {
 			//console.log('aa');
-			list[i].style.backgroundImage = "url('../tianjin/assets/img/face1.png')";
+			list[i].style.backgroundImage = "url('assets/img/face1.png')";
 			//list[i].className = "small-4 columns rotates1 rotatecss";
 			//$('.rotates2').get(i).className='small-4 columns rotates1 rotatecss';
 			//list[i].setAttribute("data", "small-4 columns rotates1 rotatecss");
@@ -26,7 +26,7 @@ function rotatefinal1() {
 	} else {
 		//console.log('hi');
 		for (var i = 0; i < listlen; i++) {
-			list[i].style.backgroundImage = "url('../tianjin/assets/img/face2.png')";
+			list[i].style.backgroundImage = "url('assets/img/face2.png')";
 			//list[i].setAttribute("class", "small-4 columns rotates2 rotatecss");
 		}
 		fdet = 1
@@ -46,7 +46,7 @@ function rotatefinal2() {
 		for (var fi = 0; fi < flistlen; fi++) {
 			//console.log('aa ' + fi);
 			//var flist = document.getElementsByClassName("secondrotates");
-			flist[fi].style.backgroundImage = "url('../tianjin/assets/img/face5.png')";
+			flist[fi].style.backgroundImage = "url('assets/img/face5.png')";
 			//list[i].className = "small-4 columns rotates1 rotatecss";
 			//$('.rotates2').get(i).className='small-4 columns rotates1 rotatecss';
 			//list[i].setAttribute("data", "small-4 columns rotates1 rotatecss");
@@ -58,7 +58,7 @@ function rotatefinal2() {
 		for (var fi = 0; fi < flistlen; fi++) {
 			//console.log('hi ' + fi);
 			//var flist = document.getElementsByClassName("secondrotates");
-			flist[fi].style.backgroundImage = "url('../tianjin/assets/img/face6.png')";
+			flist[fi].style.backgroundImage = "url('assets/img/face6.png')";
 			//list[i].setAttribute("class", "small-4 columns rotates2 rotatecss");
 		}
 		iconthis = true;
@@ -78,7 +78,7 @@ function rotatefinal3() {
 	if (fffdet == 1) {
 		for (var ffi = 0; ffi < fflistlen; ffi++) {
 			//console.log('aa');
-			fflist[ffi].style.backgroundImage = "url('../tianjin/assets/img/face4.png')";
+			fflist[ffi].style.backgroundImage = "url('assets/img/face4.png')";
 			//list[i].className = "small-4 columns rotates1 rotatecss";
 			//$('.rotates2').get(i).className='small-4 columns rotates1 rotatecss';
 			//list[i].setAttribute("data", "small-4 columns rotates1 rotatecss");
@@ -87,7 +87,7 @@ function rotatefinal3() {
 	} else {
 		//console.log('hi');
 		for (var ffi = 0; ffi < fflistlen; ffi++) {
-			fflist[ffi].style.backgroundImage = "url('../tianjin/assets/img/face3.png')";
+			fflist[ffi].style.backgroundImage = "url('assets/img/face3.png')";
 			//list[i].setAttribute("class", "small-4 columns rotates2 rotatecss");
 		}
 		fffdet = 1;
