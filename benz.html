@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+.cls {
+position:absolute;
+top:20%;
+left:20%;}
+
+.s {
+position:absolute;
+top:70%;
+left:20%;}
+
+.gt {
+position:absolute;
+top:120%;
+left:20%;}
+
+
+ul {
+position:absolute;
+top:0px;
+left:0px;
+height:1150px;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+text-align:center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+span {
+color:red;
+font-weight:bolder;}
+
+.clsc {
+text-align:center;
+width:350px:
+height:350px;
+margin:10px;
+padding:10px;
+position:absolute;
+top:19%;
+left:45%;
+font-family:cursive;
+color:white;
+-webkit-animation: fadein 3s; 
+       -moz-animation: fadein 3s; 
+        -ms-animation: fadein 3s; 
+         -o-animation: fadein 3s; 
+            animation: fadein 3s;
+}
+
+.sc {
+
+text-align:center;
+width:350px:
+height:350px;
+margin:10px;
+padding:10px;
+position:absolute;
+top:70%;
+left:45%;
+font-family:cursive;
+color:white;
+-webkit-animation: fadein 4s; 
+       -moz-animation: fadein 4s; 
+        -ms-animation: fadein 4s; 
+         -o-animation: fadein 4s; 
+            animation: fadein 4s;
+}
+
+.gtc {
+
+text-align:center;
+width:350px:
+height:350px;
+margin:10px;
+padding:10px;
+position:absolute;
+top:120%;
+left:45%;
+font-family:cursive;
+color:white;
+-webkit-animation: fadein 5s; 
+       -moz-animation: fadein 5s; 
+        -ms-animation: fadein 5s; 
+         -o-animation: fadein 5s; 
+            animation: fadein 5s;
+}
+
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/for Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* for chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* for ie */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+.button {
+
+opacity:0.7;filter:alpha(opacity=70);
+position:absolute;
+font-family:fantasy;
+top: 5%;
+left: 85%;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: red;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content:'<--';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+}
+
+.button:hover span {
+color:black;
+  padding-right: 40px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+body {
+		background-image:url(alogo.jpg);
+		}
+		
+#c {
+position:absolute;
+left:11%;
+text-align：center;
+color:white;}
+
+
+				</style>
+			</head>
+			<body>
+
+				<button class="button">
+					<span>
+						<a href="new 2.html">Back </a>
+					</span>
+				</button>
+
+				<ul>
+					<li>
+						<a class="active" href="#home">Mercedes-Benz </a>
+					</li>
+					<li>
+						<a href="#cls">Mercedes-Benz CLS63</a>
+					</li>
+					<li>
+						<a href="#s">Mercedes-Benz S63</a>
+					</li>
+					<li>
+						<a href="#gt">Mercedes-Benz AMG GT</a>
+					</li>
+
+				</ul>
+				<a name="cls"/>
+				<img src="cls.jpg" height="200px" width="350px" class="cls" />
+				<a name="s"/>
+
+				<img src="s.jpg" height="200px" width="350px" class="s" />
+				<a name="gt"/>
+				<img src="gt.jpg" height="200px" width="350px" class="gt" />
+
+				<p class="clsc">
+					<span class="ti">Mercedes-Benz CLS63 :</span> Whenever you add the letters "AMG" to a Mercedes model, you are sure to get breathtaking performance, and the CLS63 AMG 
+					is no exception. As the high-horsepower version of Mercedes "four-door coupe," it offers stylish lines with room for four. Under the hood is a 5.5-liter 
+					twin-turbo V-8 that makes a beastly 577 hp and 590 lb-ft with a seven-speed automatic. All-wheel drive (4MATIC) is standard, as is an adaptive sport 
+					suspension. Note: This model replaces the Mercedes-Benz version</p>
+
+				<p class="sc">
+					<span class="ti">Mercedes-Benz S63 :</span> Behold these Teutonic chariots that mix sumptuous luxury with earth-shaking power. Huge front air intakes, big wheels, 
+					and quad tailpipes hint at the powertrains: The S63 has a 577-hp twin-turbo V-8 with all-wheel drive; the S65 wields a 621-hp twin-turbo V-12 that 
+					sends 738 lb-ft to the rear wheels. The cabins are awash in leather and carbon fiber. There's a sedan if you need four doors; the coupe is one of 
+					the most beautiful cars around. Note: These models replace the Mercedes-Benz versions</p>
+
+				<p class="gtc">
+					<span class="ti">Mercedes-Benz AMG GT :</span> While gullwings are no longer part of the design, the Mercedes-AMG GT S is still set to swoop in and snag buyers 
+					away from its archnemesis, the Porsche 911. There are two models. First is the GT S, with a 503-hp 4.0-liter twin-turbo V-8 and a seven-speed automatic; 
+					it has a 0-60-mph time of 3.0 seconds and a top speed of 193 mph. A second model, the milder GT with 456 hp, debuts later. With a hatchback design, 
+					you could almost argue this is a sports car that's practical.</p>
+
+<hr><div id="c">All info is from caranddriver.com<div><hr><hr>
+			</body>
+		</html>
+
+		
