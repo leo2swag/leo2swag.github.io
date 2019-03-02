@@ -22,7 +22,7 @@ body {
 #perspective {
   /*margin-left: calc((60vw - 30vmin) / 2);
   margin-top: calc((60vh - 30vmin) / 4);*/
-  padding-left: 160px;
+  padding-left: 100px;
   width: 70vmin;
   height: 50vmin;
   perspective: 60vmin;
